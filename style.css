@@ -10,6 +10,13 @@ body {
     background-color: var(--light);
 }
 
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--dark);
+        color: var(--light);
+    }
+}
+
 h1 {
     font-size: 2.25rem;
 }
