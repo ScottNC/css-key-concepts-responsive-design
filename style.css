@@ -88,3 +88,9 @@ p {
 img {
     width: 250px;
 }
+
+@media screen and (max-width: 699px)  {
+    img {
+        display: none;
+    }
+}
