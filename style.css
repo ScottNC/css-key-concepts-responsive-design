@@ -8,12 +8,41 @@
 
 body {
     background-color: var(--light);
+    color: var(--dark);
 }
 
 h1 {
     font-size: 2.25rem;
     font-family: 'Inter', sans-serif;
 }
+
+
+nav {
+    font-size: 1.75rem;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: var(--camel);
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 1rem;
+}
+
+li {
+    text-decoration: none;
+    padding: 1rem;
+}
+
+li:hover {
+    text-decoration: underline;
+    border-radius: 10px;
+    background-color: var(--teal);
+}
+
 
 h2 {
     font-size: 2rem;
