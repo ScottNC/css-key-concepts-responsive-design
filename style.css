@@ -32,6 +32,17 @@ ul {
     padding: 1rem;
 }
 
+@media screen and (max-width: 600px) {
+    nav {
+        font-size: 1.25rem;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 li {
     text-decoration: none;
     padding: 1rem;
